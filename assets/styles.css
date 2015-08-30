@@ -1,0 +1,161 @@
+/*===================================================
+=            Form Login and Registration            =
+===================================================*/
+
+form input[type=text], form input[type=password]  {
+	padding: 5px;
+	font-size: 1.1em;
+}
+
+legend {
+	font-size: 1.6em;
+}
+
+.form-horizontal label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+}
+
+/*=====  End of Form Login and Registration  ======*/
+
+/*====================================
+=            Book Reviews            =
+====================================*/
+
+.form-horizontal p {
+	margin-left: 30px;
+}
+
+.bookmain h2 {
+	margin-bottom: 40px;
+}
+
+.booknav {
+	margin-top: 20px;
+}
+
+.booknav a:first-child {
+	margin-right: 30px;
+}
+
+.booknav {
+	text-align: right;
+}
+
+.list {
+	border: 1px solid black;
+	padding: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 300px;
+	overflow: hidden;
+	overflow: auto;
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.listings h4 {
+	margin-top: 50px;
+}
+
+.reviews {
+	background-color: #f4eb75;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/*=====  End of Book Reviews  ======*/
+
+
+/*========================================
+=            Add Book Reviews            =
+========================================*/
+
+.addreview {
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.addreview p {
+	margin: 10px 0;
+}
+
+.addreview textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.addnav	{
+	margin-top: 20px;
+	text-align: right;
+}
+
+.addnav > a {
+	margin-right: 50px;
+}
+
+div.title {
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.author_name {
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.review, div.rating {
+	margin-bottom: 20px;
+}
+
+
+
+/*=====  End of Add Book Reviews  ======*/
+
+
+/*===========================================
+=            Author Book Reviews            =
+===========================================*/
+
+div.userreview {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.userreview button {
+	margin-top: 20px;
+}
+
+
+/*=====  End of Author Book Reviews  ======*/
+
+
+/*=================================
+=            User page            =
+=================================*/
+
+div.users {
+	margin-top: 70px;
+}
+
+div.postreviews {
+	border: 1px solid black;
+	display: inline-block;
+	height: 100px;
+	width: 250px;
+	overflow: hidden;
+	overflow: auto;
+}
+
+/*=====  End of User page  ======*/
+
+
